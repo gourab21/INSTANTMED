@@ -1,0 +1,290 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: cursive, helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 255, 255, 0.853);
+    text-shadow: 20px;
+    text-decoration: none;
+    flex-basis: content;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    background: rgb(rgb(196, 52, 52), rgb(59, 190, 59), rgb(21, 21, 185));
+    padding: 10px;
+    transition: background-color 0.08s ease-in 0s;
+    border-radius: 10px;
+
+}
+.child {
+    padding: 20px;
+    left: 5%;
+    right: 5%;
+    margin: auto;
+    border-radius: 10px;
+}
+.Order {
+    margin-right: 10%;
+    margin-left: 5px;
+
+
+}
+.About {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.Shops {
+    margin-left: 10%;
+    margin-right: 5px;
+}
+.Account {
+    margin-right: 5px;
+    margin-left: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+.child a:hover {
+    color: cornsilk;
+    text-decoration:double;
+    background-color: rgb(141, 67, 67);
+    padding: auto;
+    border-radius: 10px;
+    margin: auto;
+
+}   
+
+#acc {
+    background-color: chartreuse;
+    border-radius: 10px;
+
+}
+#acc:hover {
+    color: cornsilk;
+    text-decoration: none;
+    background-color: rgb(141, 67, 67);
+    border-radius: 10px;
+
+}
+
+.searchbox {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.searchtextbox, .searchbtn {
+    margin: 2px;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+.searchtextbox {
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 100px;
+    
+}
+
+#instalogo {
+    height: 20%;
+    width: 15%;
+    transform: scale(1.6, 0.85);
+    left: 20%;
+    margin: 0px ;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 20px;
+
+}
+.instamed {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+   
+}
+
+#whyheading {
+    font-size: medium;
+    width: 15%;
+    display: block;
+    margin: 20px auto 5px auto;
+    box-shadow: 1px 2px 7px 2px rgb(13 214 152);
+}
+#whyheading::before {
+    content: "";
+    background-image: url(bg6.webp);
+    background-size: cover;
+    position: absolute;
+    top: -175px;
+    right: -111px;
+    bottom: -1px;
+    left: -9px;
+    opacity: 0.57;
+    z-index: -1;
+}
+
+#whyheading1 {
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+    width: 12%;
+    display: block;
+    margin: 20px auto 5px auto;
+    box-shadow: 1px 2px 7px 2px rgb(13 214 152);
+}
+#whyheading1::before {
+    content: "";
+    background-image: url(bg6.webp);
+    background-size: cover;
+    position: absolute;
+    top: -175px;
+    right: -111px;
+    bottom: -1px;
+    left: -9px;
+    opacity: 0.57;
+    z-index: -1;
+}
+
+
+
+.choose {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.choose::before{
+    content: "";
+    background-image: url(img/bg.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.99;
+    z-index: -1;
+
+}
+
+.choose1, .choose2, .choose3 {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+}
+#safe, #fast, #award {
+    height: 93%;
+    width: 80%;
+    transform: scale(1, 1);
+    left: 20%;
+    margin: auto ;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 20px;
+}
+#centerwhychoose {
+    left: 10%;
+    margin: auto;
+    padding: 3px 0px;
+}
+#aboutheading {
+    margin: 10px 30% 10px 50%;
+    display: block;
+    width: 12%;
+    background-image: url(img/bg.webp);
+}
+#aboutdesc {
+    background-image: url(bg2.png);
+    padding: 3px;
+    margin: 4px auto;
+    box-shadow: 1px 2px 7px 2px rgb(51, 136, 153);
+    justify-content: center;
+    width: 98%;
+    text-align: center;
+
+}
+.abouut {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+.abouut::before {    
+    content: "";
+    background-image: url(bg6.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.mem1, .mem2, .mem3 {
+    width: 27%;
+    height: 1%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.98);
+    text-align: justify;
+}
+
+#mem1pic, #mem2pic, #mem3pic {
+    transform: scale(0.85, 0.85);  
+
+}
+#mem1desc, #mem2desc, #mem3desc, #mem1role, #mem2role, #mem3role  {
+    margin: auto;
+    width: 92%;
+    transition: all 0.5s ease-in;
+    text-align: justify;
+    opacity: 0;
+ 
+}
+.abouut img {
+    transition: all 0.3s ease-in;
+    border-radius: 8px;
+}
+.abouut img:hover {
+    border-radius: 10px;
+    box-shadow: 5px -4px 11px 5px;
+    margin-left: 3px ;
+}
+.abouut h5 {
+    font-size: large;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
